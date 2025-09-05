@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Populasi Wilayah - Desa Karang Tengah</title>
+    <link rel="stylesheet" href="statistik.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="site-header" id="header">
+      <div class="header-container">
+        <div class="logo-area">
+          <a href="index.html">
+            <img src="logo.png" alt="Logo Desa Karang Tengah" class="logo" />
+          </a>
+          <div class="site-title">
+            <h1>Desa Karang Tengah</h1>
+            <p>Kecamatan Serba Jadi, Kabupaten Serdang Bedagai</p>
+          </div>
+        </div>
+
+        <!-- Tombol Hamburger untuk Mobile -->
+        <div class="menu-toggle" id="menuToggle">☰</div>
+
+        <!-- Navigasi -->
+        <nav class="nav-menu" id="navMenu">
+          <ul>
+            <li><a href="index.html">Profil Desa</a></li>
+            <li><a href="galeri.html">Gallery</a></li>
+            <li><a href="about.html">Tentang Kami</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Hero Banner -->
+      <div class="hero-banner">
+        <h2>Selamat Datang di Desa Karang Tengah</h2>
+        <p>Desa yang asri, harmonis, dan penuh semangat gotong royong</p>
+        <a href="#statistik-wilayah" class="cta-btn">Lihat Statistik Desa</a>
+      </div>
+    </header>
+
+    <!-- Layout utama -->
+    <main class="container">
+      <!-- Sidebar kiri -->
+      <aside class="sidebar">
+        <h3>Menu Desa</h3>
+        <div class="menu-grid">
+          <a href="#" id="openPopup" class="menu-item">
+            <img src="chat.png" alt="Identitas Desa" />
+            <span>Identitas Desa</span>
+          </a>
+          <a href="aparat.html" class="menu-item">
+            <img src="aparat.png" alt="Aparatur Desa" />
+            <span>Aparatur Desa</span>
+          </a>
+          <a href="statistik.html" class="menu-item">
+            <img src="statistik.png" alt="Statistik Wilayah" />
+            <span>Statistik Wilayah</span>
+          </a>
+          <a href="galeri.html" class="menu-item">
+            <img src="galeri.png" alt="Galeri Foto" />
+            <span>Galeri Foto</span>
+          </a>
+          <a href="map.html" class="menu-item">
+            <img src="map.png" alt="Peta Desa" />
+            <span>Peta Desa</span>
+          </a>
+        </div>
+      </aside>
+
+      <!-- Konten utama -->
+      <div class="konten">
+        <section id="statistik-wilayah">
+          <h2>Populasi Wilayah</h2>
+          <table class="tabel-populasi">
+            <thead>
+              <tr>
+                <th>No</th>
+                <th>Wilayah / Ketua</th>
+                <th>KK</th>
+                <th>L</th>
+                <th>P</th>
+                <th>L + P</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Dusun I, Herijel</td>
+                <td>268</td>
+                <td>331</td>
+                <td>360</td>
+                <td>691</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Dusun II, Wiwi Susanti</td>
+                <td>168</td>
+                <td>282</td>
+                <td>265</td>
+                <td>547</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Dusun III, Risanti Wahyuni</td>
+                <td>83</td>
+                <td>145</td>
+                <td>140</td>
+                <td>285</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Dusun IV, Wardiono</td>
+                <td>131</td>
+                <td>211</td>
+                <td>196</td>
+                <td>407</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section id="statistik" class="stat-box">
+          <h2>Statistik Desa</h2>
+          <div class="stat-circle">
+            <span>POPULASI</span>
+            <span class="angka-populasi">1930</span>
+          </div>
+          <p>969 Laki-laki | 961 Perempuan</p>
+        </section>
+
+        <section id="aparat" class="stat-box">
+          <h2>Aparatur Desa</h2>
+          <div class="slider-container">
+            <div class="slider">
+                <img src="pjslide.jpg" alt="Aparat 1" />
+              <img src="sekretasris.jpg" alt="Aparat 1" />
+              <img src="kaur uang.jpg" alt="Aparat 2" />
+              <img src="kaur umum.jpg" alt="Aparat 3" />
+              <img src="kasi pem.jpg" alt="Aparat 4" />
+              <img src="pelayananslide.jpg" alt="Aparat 5" />
+              <img src="opslide.jpg" alt="Aparat 5" />
+              <img src="kadus1slide.jpg" alt="Aparat 5" />
+              <img src="kadus2slide.jpg" alt="Aparat 5" />
+              <img src="kadus3slide.jpg" alt="Aparat 5" />
+              <img src="kadus4slide.jpg" alt="Aparat 5" />
+            </div>
+            <!-- Tombol Navigasi -->
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+          </div>
+        </section>
+      </div>
+
+      <!-- Sidebar kanan -->
+      <aside class="sidebar-kanan">
+        <h3>Galeri Kegiatan Desa</h3>
+        <div class="galeri-grid">
+          <div class="foto-item">
+            <img src="hutt.jpg" alt="Kegiatan 1" />
+            <p>Memperingati HUT RI 80</p>
+          </div>
+          <div class="foto-item">
+            <img src="senamlagi.png" alt="Kegiatan 2" />
+            <p>Aktivitas Kantor</p>
+          </div>
+          <div class="foto-item">
+            <img src="posyandu.jpg" alt="Kegiatan 3" />
+            <p>Posyandu Desa</p>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <!-- Overlay Popup -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Popup Identitas Desa -->
+    <div class="popup" id="popup">
+      <div class="popup-header">IDENTITAS DESA</div>
+      <div class="popup-content">
+        <p><b>Nama Desa</b> : Karang Tengah</p>
+        <p><b>Kode Desa</b> : 1218122014</p>
+        <p><b>Kecamatan</b> : Serba Jadi</p>
+        <p><b>Kode Kecamatan</b> : 121812</p>
+        <p><b>Kabupaten</b> : Serdang Bedagai</p>
+        <p><b>Kode Kabupaten</b> : 1218</p>
+        <p><b>Provinsi</b> : Sumatra Utara</p>
+        <p><b>Kode Provinsi</b> : 12</p>
+        <p><b>Kode Pos</b> : 20992</p>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <button class="close-btn" id="closePopup">×</button>
+      </div>
+    </div>
+
+    <!-- Footer -->
+     <footer>
+      <h2>Desa Karang Tengah</h2>
+      <p>Website Resmi - Desa dari KKN UMSU 2025</p>
+
+      <div class="social-icons">
+        <a href="" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.tiktok.com/@kkndesakarangteng?_t=ZS-8zSr09KD5BI&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
+        <a href="https://www.instagram.com/kknumsu2025karangtengah?igsh=MXR3ZXVxZG84anhrMg==" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="youtube.png" target="_blank"><i class="fab fa-youtube"></i></a>
+      </div>
+
+      <div class="footer-links">
+        <a href="index.html">Beranda</a>
+        <a href="about.html">Tim</a>
+       
+      </div>
+
+      <div class="footer-bottom">© 2025 Desa Karang Tengah | Dibuat dengan ❤️ oleh Tim KKN UMSU</div>
+    </footer>
+
+    <script>
+      // ===== Menu Toggle Mobile =====
+      const menuToggle = document.getElementById("menuToggle");
+      const navMenu = document.getElementById("navMenu");
+
+      menuToggle.addEventListener("click", () => {
+        navMenu.classList.toggle("show");
+      });
+
+      // ===== Header Shrink & Hero Hide/Show =====
+      const header = document.getElementById("header");
+      const heroBanner = document.querySelector(".hero-banner");
+
+      window.addEventListener("scroll", () => {
+        let st = window.scrollY;
+
+        // ===== Shrink header =====
+        if (st > 50) {
+          header.classList.add("shrink");
+        } else {
+          header.classList.remove("shrink");
+        }
+
+        // ===== Hero-banner hide/show dengan buffer =====
+        if (st > 120) {
+          heroBanner.classList.add("hidden"); // sembunyikan setelah >120px
+        } else if (st < 80) {
+          heroBanner.classList.remove("hidden"); // tampilkan lagi kalau <80px
+        }
+      });
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
